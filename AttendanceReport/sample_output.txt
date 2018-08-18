@@ -1,0 +1,7 @@
+C:\Users\aravind_babu\PythonExamples>python parse_attendance.py 1.csv
+Punch Report - 6/8/2018 To : 13/8/2018
+Number of employee entries: 2
+
+S.No EmpCode    EmpName                        NumDays    Present    Absent     Absent Days
+  1. ABC1002    Prem Prakash N                 8          2          6          [WED,THU,FRI,SAT,SUN,MON]
+  2. ABC1006    Ahmed Ali A                    8          6          2          [WED,SUN   ]
