@@ -29,7 +29,7 @@ def main():
 
     now = datetime.datetime.now()
     num_of_days = calendar.monthrange(now.year,now.month)[1]
-
+    
     gross_per_day = int(inp_gross) / num_of_days
 
     gross = (int(inp_gross) - (int(gross_per_day) * int(lop_num_of_days)))
@@ -41,8 +41,14 @@ def main():
     else:
         hra = int(gross) * (25/100)
 
-    conveyance = 1600
-    medical = 1250
+    conv = 1600
+    conv_per_day = int(conv) / num_of_days
+    conveyance = (int(conv) - (int(conv_per_day) * int(lop_num_of_days)))
+
+    med = 1250
+    med_per_day = int(med) / num_of_days
+    medical = (int(med) - (int(med_per_day) * int(lop_num_of_days)))
+    
     special = abs(int(gross) - (int(basic) + int(hra) + int(conveyance) + int(medical)))
 
     if (int(gross) <= 21000):
