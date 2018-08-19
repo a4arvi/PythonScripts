@@ -1,4 +1,4 @@
-C:\Users\aravind_babu_mahendr\PythonExamples>python Payroll.py
+C:\Users\aravind_babu_mahendr\PythonExamples\Payroll>python Payroll.py
 Enter Gross Amount: 31000
 Enter number of days of LOP: 2
 Enter  number of days of night pay: 20
@@ -18,19 +18,19 @@ Gross            :  29000
 -------------------------------
 PF               :  1800
 ESI              :  0
-PT               :  171
+PT               :  208
 -------------------------------
-Deductions       :  1971
+Deductions       :  2008
 -------------------------------
-Net Pay          :  27029
+Net Pay          :  26992
 -------------------------------
 Night shift      :  2000
-Double pay       :  2613
+Double pay       :  2610
 Incentives       :  1000
 -------------------------------
-Total Allowances :  5613
+Total Allowances :  5610
 -------------------------------
-Take home        :  32642
+Take home        :  32602
 -------------------------------
 
-C:\Users\aravind_babu_mahendr\PythonExamples>
+C:\Users\aravind_babu_mahendr\PythonExamples\Payroll>
