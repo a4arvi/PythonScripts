@@ -17,7 +17,7 @@ import datetime
 #deductions = pf + esi + pt + tds
 #[gross] > 21000, pf = 15000 * 12%; else [gross - hra]*12%
 #esi = gross * 1.75%
-#[gross]/2 <= 75000, pt = 171; else 208
+#[gross]*6 months <= 75000, pt = 171; else 208
 #actual gross = gross - [gross_per_day * number of loss of pay days]
 
 def main():
@@ -52,7 +52,7 @@ def main():
         pf = 15000 * (12/100)
         esi = 0
 
-    if (int(gross)/2 <= 75000):
+    if ((int(gross) * 6) <= 75000):
         pt = 171
     else:
         pt = 208
